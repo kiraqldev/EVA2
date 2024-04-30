@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACME</title>
+    <link href="https://db.onlinewebfonts.com/c/8fdf92c346e6c3a69596ebf57dd2ed55?family=Looney+Tunes+Tilt+BT" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <article id="banner"></article> 
+    <header>
+        <h1 id="bienvenida">¡Bienvenido a ACME! </h1>
+        <h2>Donde la Locura es una Opción y la Diversión es Obligatoria</h2>
+    </header>
+    <div class="container">
+        <img class="img_l" src="img/coyote_murcielago.webp" alt="Coyote murcielago" />
+        <img class="img_r" src="img/coyote_stunman.webp" alt="Coyote doble de riesgo" />
+        <div class="lbl-menu">
+            <label for="radio1">Inicio</label>
+            <label for="radio2">Quienes somos</label>
+            <label for="radio3">Productos</label>
+            <label for="radio4">Contacto</label>
+        </div>
+        <div class="content">
+            <input type="radio" name="radio" id="radio1">
+            <div class="tab1">
+                <p class="contenido">Descubre una nueva era de innovación y diversión con ACME. Somos tu destino para productos ingeniosos y soluciones creativas que hacen la vida más emocionante. Explora nuestro catálogo y déjate sorprender por nuestra amplia gama de productos.</p>
+            </div>
+            <input type="radio" name="radio" id="radio2">
+            <div class="tab2">
+                <p class="contenido">¡Bienvenido a ACME, donde lo absurdo es nuestro negocio principal y la risa es nuestra moneda de cambio!<br>
+
+                    Desde nuestro humilde comienzo en un garaje donde solo podíamos soñar con caóticas invenciones, ACME ha crecido hasta convertirse en el nombre más reconocido en el mundo de lo exagerado, lo extravagante y lo absolutamente improbable. Fundada por el visionario emprendedor Wile E. Coyote (sí, ese mismo del desierto), ACME se ha comprometido a proporcionar soluciones a problemas que ni siquiera sabías que tenías.<br>
+                    
+                    Nuestro equipo de mentes brillantes, o tal vez un poco excéntricas, trabaja incansablemente en nuestro Laboratorio de Ideas Descabelladas, donde cada día nacen nuevos inventos que desafían la lógica y desatan carcajadas. Desde cohetes cohete-propulsados hasta trampas para atrapar unicornios (¡sí, existen!), en ACME no hay límites para la creatividad desenfrenada.<br>
+                    
+                    Pero no te preocupes, no todo es caos y confusión. También nos tomamos muy en serio la seguridad, ¡bueno, más o menos! Nuestro departamento de calidad se asegura de que nuestros productos cumplan con los estándares más altos... o al menos intentamos que no exploten en tu cara. ¡La emoción está garantizada!<br>
+                    
+                    Así que únete a nosotros en esta aventura de locura controlada y descubre por qué en ACME, la única regla es no tener reglas. Y recuerda, si no puedes encontrar lo que necesitas, ¡seguramente lo inventaremos mañana!<br>
+                    
+                    ¡Bienvenido a ACME, donde lo imposible es solo el comienzo de la diversión!</p>
+                <div class="video-container">
+                    <a href="https://www.youtube.com/embed/it3iVajIK-Q" target="_blank">¡Echa un vistazo a nuestra fábrica y procesos de calidad!</a>
+                </div>
+            </div>
+            <input type="radio" name="radio" id="radio3">
+            <div class="tab3">
+                <table class="contenido">
+                    <tr>
+                        <th>Producto</th>
+                        <th>Precio</th>
+                    </tr>
+                    <tr>
+                        <td>Súper Cohete Propulsado por Cohetes</td>
+                        <td>$500,000 CLP</td>
+                    </tr>
+                    <tr>
+                        <td>Trampa de Oso Polar Plegable</td>
+                        <td>$150,000 CLP</td>
+                    </tr>
+                    <tr>
+                        <td>Sombrero Helicóptero para Vuelo Instantáneo</td>
+                        <td>$300,000 CLP</td>
+                    </tr>
+                    <tr>
+                        <td>Lanzador de Red Gigante para Atrapar Coyotes</td>
+                        <td>$200,000 CLP</td>
+                    </tr>
+                    <tr>
+                        <td>Patines Cohete con Sistema de Frenado Instantáneo</td>
+                        <td>$250,000 CLP</td>
+                    </tr>
+                    <tr>
+                        <td>Paraguas Anti-Gravedad</td>
+                        <td>$180,000 CLP</td>
+                    </tr>
+                    <tr>
+                        <td>Generador de Nubes Portátil para Lluvias a Pedido</td>
+                        <td>$350,000 CLP</td>
+                    </tr>
+                    <tr>
+                        <td>Caja de Dibujos Animados Portátil para Escape Rápido</td>
+                        <td>$120,000 CLP</td>
+                    </tr>
+                    <tr>
+                        <td>Mochila Cósmica con Agujero de Gusano Incorporado</td>
+                        <td>$600,000 CLP</td>
+                    </tr>
+                    <tr>
+                        <td>Zapatillas con Resortes para Saltos de Altura Increíble</td>
+                        <td>$280,000 CLP</td>
+                    </tr>
+                </table>
+                
+            </div>
+            <input type="radio" name="radio" id="radio4">
+            <div class="tab4">
+                <h3 class="contenido">Envianos un correo y te contactaremos a la brevedad</h3>
+                <form>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Wile E. Coyote" />
+                    <br>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="acme@mail.com" />
+                    <br>
+                    <a href="img/gracias_contacto.jpg" target="_blank">
+                        <button type="button">Enviar</button>
+                    </a>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        
+    </footer>
+</body>
+</html>

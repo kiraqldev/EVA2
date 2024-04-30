@@ -1,0 +1,143 @@
+@import url(https://db.onlinewebfonts.com/c/8fdf92c346e6c3a69596ebf57dd2ed55?family=Looney+Tunes+Tilt+BT);
+
+@font-face {
+    font-family: "Looney Tunes Tilt BT";
+    src: url("https://db.onlinewebfonts.com/t/8fdf92c346e6c3a69596ebf57dd2ed55.eot");
+    src: url("https://db.onlinewebfonts.com/t/8fdf92c346e6c3a69596ebf57dd2ed55.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/8fdf92c346e6c3a69596ebf57dd2ed55.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/8fdf92c346e6c3a69596ebf57dd2ed55.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/8fdf92c346e6c3a69596ebf57dd2ed55.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/8fdf92c346e6c3a69596ebf57dd2ed55.svg#Looney Tunes Tilt BT")format("svg");
+}
+
+.comic-neue-bold {
+    font-family: "Comic Neue", cursive;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+
+.contenido{
+    font-family: "Comic Neue", cursive;
+}
+
+body {
+    background-image: url('img/logo_pagina.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat;
+}
+
+header {
+    text-align: center;
+    font-family: "Looney Tunes Tilt BT";
+    background-color: white;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.lbl-menu {
+    background: #234;
+    text-align: center;
+}
+
+.lbl-menu label {
+    display: inline-block;
+    padding: 20px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.lbl-menu label:hover {
+    background: #28435d;
+}
+
+.content {
+    position: relative;
+}
+
+.content div {
+    position: absolute;
+    line-height: 1.8;
+    transition: all 600ms ease;
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0.90);
+    padding: 30px;
+    background: #fff;
+    padding-bottom: 40px;
+}
+
+#radio1,#radio2,#radio3,#radio4{
+    display: none;
+}
+
+#radio1:checked ~ .tab1,
+#radio2:checked ~ .tab2,
+#radio3:checked ~ .tab3,
+#radio4:checked ~ .tab4{
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+
+.content div:after {
+    position: absolute;
+    content: "";
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid #fff;
+    bottom: 100%;
+    left: calc(50% - 10px);
+}
+
+.content .tab1:after{
+    left: 168px;
+}
+
+
+.content .tab2:after{
+    left: 278px;
+}
+
+.content .tab3:after{
+    left: 400px;
+}
+
+.content .tab4:after{
+    left: 502px;
+}
+
+#banner {
+    background-image: url('img/banner.jpg');
+    background-size: contain;
+    background-position: center;
+    height: 200px;
+    background-repeat: no-repeat;
+}
+
+
+.img_l {
+    position: absolute;
+    left: 0;
+    bottom: 0; 
+    width: 350px; 
+    height: auto;
+    
+}
+
+.img_r {
+    position: absolute;
+    right: 0;
+    bottom: 0; 
+    width: 350px; 
+    height: auto;
+}
